@@ -4,7 +4,7 @@ User.create!(name:  "Example User",
              password:              "foobar",
              password_confirmation: "foobar",
              admin: true)
-
+             
 # Generate a bunch of additional users.
 99.times do |n|
   name  = Faker::Name.name
